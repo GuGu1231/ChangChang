@@ -30,6 +30,7 @@ public class NoticeService {
 
 	public void crawlAndSaveNotices() {
 		List<Department> departments = departmentRepository.findAll();
+		noticeRepository.deleteAll(); // 기존 공지사항 삭제
 		for (Department department : departments) {
 			try {
 				// URL 형식 검증
