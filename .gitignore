@@ -1,0 +1,12 @@
+.gradle/
+.vscode/
+bin/
+build/
+gradle/
+src/main/resources
+src/main/test/
+.gitattributes
+gradlew
+gradlew.bat
+HELP.md
+settings.gradle
