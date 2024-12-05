@@ -1,4 +1,4 @@
-package kr.or.changwon.changchang.demo;
+package kr.or.changwon.changchang.demo.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 

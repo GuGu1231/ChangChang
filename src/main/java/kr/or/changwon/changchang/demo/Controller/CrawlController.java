@@ -1,9 +1,12 @@
-package kr.or.changwon.changchang.demo;
+package kr.or.changwon.changchang.demo.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+
+import kr.or.changwon.changchang.demo.entity.Notice;
+import kr.or.changwon.changchang.demo.service.NoticeService;
 
 import java.util.List;
 import java.util.Map;

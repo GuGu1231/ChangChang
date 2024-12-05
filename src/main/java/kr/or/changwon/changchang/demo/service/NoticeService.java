@@ -1,4 +1,4 @@
-package kr.or.changwon.changchang.demo;
+package kr.or.changwon.changchang.demo.service;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -6,6 +6,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
+
+import kr.or.changwon.changchang.demo.entity.Department;
+import kr.or.changwon.changchang.demo.entity.Notice;
+import kr.or.changwon.changchang.demo.repository.DepartmentRepository;
+import kr.or.changwon.changchang.demo.repository.NoticeRepository;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
