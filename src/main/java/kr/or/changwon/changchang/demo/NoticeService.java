@@ -49,7 +49,12 @@ public class NoticeService {
 						if (dataId != null && !dataId.isEmpty()) {
 							// 링크 생성
 							String link = department.getLinkPattern() + dataId;
-							String type = "공지"; // 예시로 타입을 설정
+							// 공지 여부 확인
+							Element previousTd = titElement.previousElementSibling();
+							Element firstTd = previousTd.select("td").first();
+							String type = firstTd != null && firstTd.select("b.btn_S.btn_red.BD_tm_none").size() > 0
+									? "공지"
+									: "일반";
 							saveNotice(title, link, type, department);
 						}
 					}

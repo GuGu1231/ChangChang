@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="kr.or.changwon.changchang.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-04T06:49:03" hostname="DESKTOP-2BVRQ3I" time="0.025">
+<testsuite name="kr.or.changwon.changchang.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-05T04:38:22" hostname="DESKTOP-2BVRQ3I" time="0.056">
   <properties/>
-  <testcase name="contextLoads()" classname="kr.or.changwon.changchang.demo.DemoApplicationTests" time="0.025"/>
+  <testcase name="contextLoads()" classname="kr.or.changwon.changchang.demo.DemoApplicationTests" time="0.056"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

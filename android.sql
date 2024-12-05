@@ -15,16 +15,4 @@ INSERT INTO department (name, crawl_url, link_pattern) VALUES ('전기전자제�
 INSERT INTO department (name, crawl_url, link_pattern) VALUES ('신소재공학부', 'https://www.changwon.ac.kr/material/na/ntt/selectNttList.do?mi=5265&bbsId=1889', 'https://www.changwon.ac.kr/material/na/ntt/selectNttInfo.do?mi=5265&nttSn=');
 INSERT INTO department (name, crawl_url, link_pattern) VALUES ('메카융합공학과(야)', 'https://www.changwon.ac.kr/mc/na/ntt/selectNttList.do?mi=5726&bbsId=1998', 'https://www.changwon.ac.kr/mc/na/ntt/selectNttInfo.do?mi=5726&nttSn=');
 
--- User 데이터 삽입
-INSERT INTO user (name, student_id) VALUES ('홍길동', '20210001');
-
--- Subject 데이터 삽입
-INSERT INTO subject (name) VALUES ('수학');
-INSERT INTO subject (name) VALUES ('영어');
-
--- Assignment 데이터 삽입
-INSERT INTO assignment (user_id, subject_id) VALUES (1, 1);
-INSERT INTO assignment (user_id, subject_id) VALUES (1, 2);
-
-
 -- 다른 학과들도 동일한 방식으로 추가
